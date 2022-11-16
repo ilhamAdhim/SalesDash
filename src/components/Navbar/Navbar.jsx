@@ -86,7 +86,11 @@ function Navbar({ profileName, position }) {
           <div>Total Balance</div>
           <BsThreeDotsVertical style={{ margin: "auto 0" }} />
         </Dropdown.Item>
-        <a href="https://github.com/ilhamAdhim/SalesDash" target="_blank">
+        <a
+          href="https://github.com/ilhamAdhim/SalesDash"
+          target="_blank"
+          rel="noreferrer"
+        >
           <Dropdown.Item className="flex justify-between ">
             <div>See Codes</div>
             <SlSocialGithub style={{ margin: "auto 0" }} />
